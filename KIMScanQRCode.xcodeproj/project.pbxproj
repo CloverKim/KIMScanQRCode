@@ -15,6 +15,11 @@
 		3BA38BA31D56D4B200AAAB47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA38BA11D56D4B200AAAB47 /* LaunchScreen.storyboard */; };
 		3BA38BAE1D56D4B200AAAB47 /* KIMScanQRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA38BAD1D56D4B200AAAB47 /* KIMScanQRCodeTests.m */; };
 		3BA38BB91D56D4B200AAAB47 /* KIMScanQRCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA38BB81D56D4B200AAAB47 /* KIMScanQRCodeUITests.m */; };
+		3BA38BD01D56E08600AAAB47 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA38BC81D56E08600AAAB47 /* SVIndefiniteAnimatedView.m */; };
+		3BA38BD11D56E08600AAAB47 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA38BCA1D56E08600AAAB47 /* SVProgressAnimatedView.m */; };
+		3BA38BD21D56E08600AAAB47 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3BA38BCB1D56E08600AAAB47 /* SVProgressHUD.bundle */; };
+		3BA38BD31D56E08600AAAB47 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA38BCD1D56E08600AAAB47 /* SVProgressHUD.m */; };
+		3BA38BD41D56E08600AAAB47 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA38BCF1D56E08600AAAB47 /* SVRadialGradientLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		3BA38BB41D56D4B200AAAB47 /* KIMScanQRCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIMScanQRCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA38BB81D56D4B200AAAB47 /* KIMScanQRCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIMScanQRCodeUITests.m; sourceTree = "<group>"; };
 		3BA38BBA1D56D4B200AAAB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA38BC71D56E08600AAAB47 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		3BA38BC81D56E08600AAAB47 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		3BA38BC91D56E08600AAAB47 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		3BA38BCA1D56E08600AAAB47 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		3BA38BCB1D56E08600AAAB47 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		3BA38BCC1D56E08600AAAB47 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		3BA38BCD1D56E08600AAAB47 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		3BA38BCE1D56E08600AAAB47 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		3BA38BCF1D56E08600AAAB47 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,7 @@
 		3BA38B921D56D4B200AAAB47 /* KIMScanQRCode */ = {
 			isa = PBXGroup;
 			children = (
+				3BA38BC61D56E08600AAAB47 /* SVProgressHUD */,
 				3BA38B961D56D4B200AAAB47 /* AppDelegate.h */,
 				3BA38B971D56D4B200AAAB47 /* AppDelegate.m */,
 				3BA38B991D56D4B200AAAB47 /* ViewController.h */,
@@ -138,6 +153,22 @@
 				3BA38BBA1D56D4B200AAAB47 /* Info.plist */,
 			);
 			path = KIMScanQRCodeUITests;
+			sourceTree = "<group>";
+		};
+		3BA38BC61D56E08600AAAB47 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3BA38BC71D56E08600AAAB47 /* SVIndefiniteAnimatedView.h */,
+				3BA38BC81D56E08600AAAB47 /* SVIndefiniteAnimatedView.m */,
+				3BA38BC91D56E08600AAAB47 /* SVProgressAnimatedView.h */,
+				3BA38BCA1D56E08600AAAB47 /* SVProgressAnimatedView.m */,
+				3BA38BCB1D56E08600AAAB47 /* SVProgressHUD.bundle */,
+				3BA38BCC1D56E08600AAAB47 /* SVProgressHUD.h */,
+				3BA38BCD1D56E08600AAAB47 /* SVProgressHUD.m */,
+				3BA38BCE1D56E08600AAAB47 /* SVRadialGradientLayer.h */,
+				3BA38BCF1D56E08600AAAB47 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +283,7 @@
 				3BA38BA31D56D4B200AAAB47 /* LaunchScreen.storyboard in Resources */,
 				3BA38BA01D56D4B200AAAB47 /* Assets.xcassets in Resources */,
 				3BA38B9E1D56D4B200AAAB47 /* Main.storyboard in Resources */,
+				3BA38BD21D56E08600AAAB47 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +308,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA38BD41D56E08600AAAB47 /* SVRadialGradientLayer.m in Sources */,
 				3BA38B9B1D56D4B200AAAB47 /* ViewController.m in Sources */,
+				3BA38BD11D56E08600AAAB47 /* SVProgressAnimatedView.m in Sources */,
 				3BA38B981D56D4B200AAAB47 /* AppDelegate.m in Sources */,
 				3BA38B951D56D4B200AAAB47 /* main.m in Sources */,
+				3BA38BD01D56E08600AAAB47 /* SVIndefiniteAnimatedView.m in Sources */,
+				3BA38BD31D56E08600AAAB47 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +550,7 @@
 				3BA38BBF1D56D4B200AAAB47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BA38BC01D56D4B200AAAB47 /* Build configuration list for PBXNativeTarget "KIMScanQRCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +559,7 @@
 				3BA38BC21D56D4B200AAAB47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BA38BC31D56D4B200AAAB47 /* Build configuration list for PBXNativeTarget "KIMScanQRCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +568,7 @@
 				3BA38BC51D56D4B200AAAB47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
